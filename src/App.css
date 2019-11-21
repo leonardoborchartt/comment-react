@@ -1,22 +1,27 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#app {
+  font-family: "Inter", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 100px 0 30px 0;
 }
 
-.App-link {
-  color: #09d3ac;
+.comments {
+  width: 500px;
+  max-width: 80%;
+  min-width: 300px;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.comments h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+footer {
+  float: right;
+  color: #777;
+  font-size: 0.8em;
+  margin-top: 15px;
 }
