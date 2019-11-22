@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Comment from '../Comment/Comment';
-import api from '../../services/api'
-import './CommentList.css'
+import api from '../../services/api';
+import './CommentList.css';
 
 export default function CommentList() {
   const [comments, setComments] = useState([])
@@ -11,7 +11,7 @@ export default function CommentList() {
       const response = await api.get('/comment');
       setComments(response.data);
     }
-    loadComments()
+    loadComments();
 
   }, []);
 

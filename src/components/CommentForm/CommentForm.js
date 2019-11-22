@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import './CommentForm.css';
 import api from '../../services/api'
 import { Form, Input } from 'unform';
 
 export default function CommentForm({ history }) {
-	const [data, setData] = useState({});
+	const [data] = useState({});
 	
 	async function handleSubmit(data) {
 		await api.post('/comment', data);
