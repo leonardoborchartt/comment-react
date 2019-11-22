@@ -1,5 +1,7 @@
 .comments-form {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(238, 231, 231);
+  margin-bottom: 15px;
+
 }
 
 .comments-form ul {
@@ -15,7 +17,7 @@
   border: 0;
   border-radius: 30px;
   padding: 7px 16px;
-  background: #448ef6;
+  background: #1ca16e;
   color: #fff;
   font-family: "Rubik", sans-serif;
   font-weight: bold;

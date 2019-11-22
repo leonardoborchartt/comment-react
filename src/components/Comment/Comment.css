@@ -1,13 +1,16 @@
 .comment {
   position: relative;
-  wpadding: 10px 20px;
-  background: #efefef;
+  padding: 10px 20px;
+  background: #ffffff;
   border-radius: 10px;
   margin-bottom: 15px;
+  border: 1px solid #ccc;
+ 
 }
 
 .comment h4, p {
 	margin: 02px;
+
 }
 
 .timestamp {

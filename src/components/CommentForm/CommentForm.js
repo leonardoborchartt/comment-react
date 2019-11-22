@@ -6,9 +6,10 @@ import { Form, Input } from 'unform';
 
 export default function CommentForm({ history }) {
 	const [data] = useState({});
-	
+
 	async function handleSubmit(data) {
 		await api.post('/comment', data);
+		//console.log(data);
 		window.location.reload();
 	};
 
@@ -26,16 +27,20 @@ export default function CommentForm({ history }) {
 						/>
 					</li>
 					<li>
-						<textarea
+						<Input className="formsinput"
 							name="says"
 							type="text"
 							placeholder="fala ae!"
 							required
-						></textarea>
+						/>
 					</li>
 					<li><input type="submit" value="Enviar" /> </li>
 				</ul>
 			</Form>
+		
+
+
 		</div>
+		
 	)
 }
