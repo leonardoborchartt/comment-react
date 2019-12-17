@@ -10,7 +10,7 @@ export default function CommentForm({ history }) {
 	async function handleSubmit(data) {
 		await api.post('/comment', data);
 		console.log(data);
-		//window.location.reload();
+		window.location.reload();
 	};
 
 
