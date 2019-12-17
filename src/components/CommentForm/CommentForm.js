@@ -9,8 +9,8 @@ export default function CommentForm({ history }) {
 
 	async function handleSubmit(data) {
 		await api.post('/comment', data);
-		//console.log(data);
-		window.location.reload();
+		console.log(data);
+		//window.location.reload();
 	};
 
 
@@ -37,9 +37,6 @@ export default function CommentForm({ history }) {
 					<li><input type="submit" value="Enviar" /> </li>
 				</ul>
 			</Form>
-		
-
-
 		</div>
 		
 	)
