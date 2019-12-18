@@ -23,6 +23,7 @@ export default function CommentList() {
             key={comentarios._id}
             username={comentarios.name}    
             comment={comentarios.says}    
+            localdate1={comentarios.localdate1}    
             /> 
           ))
         }
